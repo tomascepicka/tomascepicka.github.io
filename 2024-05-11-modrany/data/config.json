@@ -1,0 +1,18 @@
+{
+    "hfov": 100.0,
+    "minHfov": 7.0,
+    "multiResMinHfov": true,
+    "type": "multires",
+    "friction": 0.20,
+    "yaw": 200.0,
+    "pitch": -20.0,
+    "autoLoad": true,
+    "multiRes": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 6,
+        "cubeResolution": 16192
+    }
+}
